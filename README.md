@@ -141,7 +141,7 @@ The following machine learning models were trained and evaluated:
 
 ---
 
-# ⚠️ Overfitting Analysis
+# Overfitting Analysis
 
 During training, **Decision Tree** and **Random Forest** showed signs of overfitting because their training accuracy was **1.0**.
 
@@ -173,7 +173,7 @@ To reduce overfitting, a **pruned Decision Tree** was trained.
 
 ---
 
-# 🚀 Final Model: Gradient Boosting Classifier
+# Final Model: Gradient Boosting Classifier
 
 After comparing all models, **Gradient Boosting Classifier** was selected as the final model because it gave:
 
@@ -192,7 +192,7 @@ After comparing all models, **Gradient Boosting Classifier** was selected as the
 
 ---
 
-# 💾 Model Saving
+# Model Saving
 
 The final model and deployment files were saved using **Joblib**.
 
@@ -203,7 +203,7 @@ Saved files:
 
 ---
 
-# 🖥️ Streamlit Web App
+#  Streamlit Web App
 
 A Streamlit app was built to allow users to enter loan applicant details and get an instant prediction.
 
@@ -250,8 +250,6 @@ loan_approval_prediction/
 │
 ├── app.py                 # Streamlit application
 ├── model.pkl              # Trained Gradient Boosting model
-├── scaler.pkl             # Saved scaler (or None)
-├── columns.pkl            # Feature columns used during training
 ├── loan_data.csv          # Dataset
 ├── notebook.ipynb         # Jupyter notebook with EDA + training
 └── README.md              # Project documentation
@@ -259,7 +257,7 @@ loan_approval_prediction/
 
 ---
 
-# ▶️ How to Run the Project
+#  How to Run the Project
 
 ## 1. Clone the repository
 ```bash
@@ -279,7 +277,7 @@ streamlit run app.py
 
 ---
 
-# 🧠 Machine Learning Workflow Followed
+#  Machine Learning Workflow Followed
 
 1. Load dataset  
 2. Clean and preprocess data  
